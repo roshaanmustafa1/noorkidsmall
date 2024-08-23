@@ -1,0 +1,248 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css");
+.ubuntu-light {
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.ubuntu-regular {
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.ubuntu-medium {
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.ubuntu-bold {
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.ubuntu-light-italic {
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 300;
+  font-style: italic;
+}
+
+.ubuntu-regular-italic {
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.ubuntu-medium-italic {
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 500;
+  font-style: italic;
+}
+
+.ubuntu-bold-italic {
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 700;
+  font-style: italic;
+}
+
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+p {
+  margin: 0px !important;
+  padding: 0px !important;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0px !important;
+  padding: 0px !important;
+}
+body {
+  background: linear-gradient(
+    to bottom,
+    rgba(108, 221, 255, 1) 0%,
+    rgba(255, 133, 162, 1) 50%,
+    rgba(255, 209, 102, 1) 100%
+  );
+}
+/* :root {
+  --pink-color: #ff85a2 !important;
+  --yellow-color: #ffd166;
+  --blue-color: #6cddff;
+  --green-color: #78c750;
+} */
+
+/* header section  */
+.navbar {
+  min-height: 107px;
+  height: auto;
+  padding: 28px 55px !important;
+  background-color: #ff85a2;
+  .search {
+    height: auto;
+    input {
+      width: 292px;
+      height: 50px;
+    }
+    input:focus-visible {
+      outline: 0px !important;
+    }
+    img {
+      top: 12px;
+      right: 16px;
+    }
+  }
+  .navbar-sub {
+    max-width: 1360px;
+    .logo-sec {
+      gap: 85px;
+      @media screen and (max-width: 768px) {
+        gap: 20px;
+      }
+      .nav-link {
+        font-size: 20px;
+        color: #323232;
+      }
+    }
+  }
+}
+/* header section  */
+/* hero section  */
+.hero-wrapper {
+  padding-top: 84px;
+  padding-bottom: 84px;
+  background-image: url("./images/hero-bg.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  @media screen and (max-width: 768px) {
+    padding: 84px 24px;
+  }
+  .hero-sec-1 {
+    gap: 36px;
+  }
+  p {
+    font-size: 25px;
+    letter-spacing: 10.5%;
+  }
+  h2 {
+    font-size: 70px;
+    line-height: 80.43px;
+  }
+  button {
+    font-size: 20px;
+    background-color: #ffd166;
+    padding: 24px 64px;
+    color: white;
+    border-radius: 50px;
+  }
+}
+/* hero section  */
+/* shipping section  */
+.shipping-wrapper {
+  padding: 30px 0px 64px 0px;
+  @media screen and (max-width: 768px) {
+    padding: 24px;
+  }
+}
+/* shipping section  */
+/* collection section  */
+.collection-wrapper {
+  @media screen and (max-width: 768px) {
+    padding: 0px 24px;
+  }
+  .collection-sec-1,
+  .collection-sec-2 {
+    background: #6cddff url("./images/coll-girl.png") no-repeat top right /
+      contain;
+    padding: 32px 40px;
+  }
+  h4 {
+    font-size: 45px;
+    font-weight: 700;
+    max-width: 230px;
+  }
+  p {
+    font-size: 25px;
+
+    span {
+      color: #ffd166;
+    }
+  }
+  button {
+    color: black;
+    padding: 16px 44px;
+    border-radius: 50px;
+  }
+  .collection-sec-2 {
+    background: #ffd166 url("./images/men.png") no-repeat top right / contain;
+  }
+}
+/* collection section  */
+
+.h-title {
+  font-size: 60px;
+  font-weight: 700;
+  color: #323232;
+}
+/* newsletter */
+
+.newsletter-wrapper {
+  @media screen and (max-width: 768px) {
+    padding: 0px 24px;
+  }
+  .news-input-wrapper {
+    max-width: 771px;
+    width: 100%;
+    input {
+      width: 100%;
+      height: 130px;
+      border-radius: 1000px;
+      padding-left: 45px;
+      padding-right: 135px;
+      font-size: 25px;
+    }
+    input::placeholder {
+      font-size: 25px;
+      color: #323232;
+      opacity: 50%;
+    }
+    .form-control:focus {
+      outline: 0px !important;
+      box-shadow: none !important;
+      border: none;
+    }
+    button {
+      background-color: #fbd103;
+      border-radius: 100px;
+      height: 112px;
+      width: 112px;
+      right: 10px;
+      top: 9px;
+    }
+  }
+  .subs-news {
+    padding-bottom: 46px;
+  }
+  .social-box {
+    padding-top: 56px;
+  }
+}
+.news-title {
+  font-size: 30px;
+}
+/* newsletter */
+
+/* footer */
+
+.footer {
+  padding: 98px 0px;
+}

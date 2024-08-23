@@ -1,0 +1,809 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="stylesheet" href="./slider01.css" />
+    <link rel="icon" type="image/x-icon" href="/images/favicon.ico" />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper/swiper-bundle.min.css"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap"
+      rel="stylesheet"
+    />
+    <title>Noor Kids Mall</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+    />
+  </head>
+  <body>
+    <!-- header section -->
+    <nav class="navbar navbar-expand-lg pink justify-content-center">
+      <div
+        class="d-flex w-100 justify-content-lg-between align-items-center navbar-sub flex-lg-nowrap flex-wrap justify-content-center gap-lg-0 gap-4"
+      >
+        <div
+          class="d-flex logo-sec flex-lg-row flex-column justify-content-center align-items-center"
+        >
+          <a class="navbar-brand" href="#"
+            ><img src="./images/logo.svg" alt="logo" class="img-fluid"
+          /></a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0 gap-4">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#" class=""
+                  >Boy</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#" class=""
+                  >Girl</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#" class=""
+                  >Newborn</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#" class=""
+                  >Winter</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#" class=""
+                  >Summer</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="search position-relative">
+          <input
+            type="text"
+            placeholder="Search"
+            class="border-0 rounded-5 p-3"
+          />
+          <img
+            src="./images/search.svg"
+            alt=""
+            class="position-absolute search-icon"
+          />
+        </div>
+        <div class="icons d-flex gap-5">
+          <img src="./images/Buy.svg" alt="" />
+          <img src="./images/Heart.svg" alt="" />
+          <img src="./images/Add-User.svg" alt="" />
+        </div>
+      </div>
+    </nav>
+    <!-- header section -->
+    <!-- hero section -->
+    <div class="hero-wrapper ">
+      <div class="container">
+        <div class="row row-gap-5">
+          <div
+            class="col-md-6 d-flex flex-column justify-content-center align-items-md-baseline align-items-center hero-sec-1 text-center text-md-start"
+          >
+            <p>TRENDING COLLECTION</p>
+            <h2>Explore Summer Collection</h2>
+            <button type="button" class="btn btn-warning">Shop Now</button>
+          </div>
+          <div
+            class="col-md-6 d-flex justify-content-center align-items-center"
+          >
+            <img src="./images/hero-img.png" alt="" class="img-fluid" />
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- hero section -->
+    <!-- shipping section -->
+    <div
+      class="shipping-wrapper d-flex justify-content-center align-items-center "
+    >
+      <img src="./images/icon-4.png" alt="shipping" class="img-fluid" />
+    </div>
+    <!-- shipping section -->
+    <!-- collection section -->
+    <div class="collection-wrapper ">
+      <div class="container">
+        <div class="row  row-gap-5">
+          <div class="col-md-6 gx-0 gx-md-3">
+            <div class="collection-sec-1 rounded-4">
+              <h4 class="pb-3 text-white">Collection For Girls</h4>
+              <p class="pb-4 text-white">Up To <span>40%</span> Off</p>
+              <button type="button" class="btn btn-light">Shop Now</button>
+            </div>
+          </div>
+          <div class="col-md-6 gx-0 gx-md-3">
+            <div class="collection-sec-2 rounded-4">
+              <h4 class="pb-3 text-dark">Collection For Boys</h4>
+              <p class="pb-4 text-white">
+                Up To <span class="text-dark">40%</span> Off
+              </p>
+              <button type="button" class="btn btn-light">Shop Now</button>
+            </div>
+          </div>
+        </div>
+        <div class="row ">
+          <div class="col-12 gx-0 gx-md-3 pt-md-3 pt-4">
+            <img src="./images/baby-sec.png" alt="baby-sec" class="img-fluid" />
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- collection section -->
+    <!-- slider 01 section -->
+    <div
+      class="container d-flex flex-column align-items-center justify-content-center gap-2 pt-md-5 px-md-0 px-4 "
+    >
+    <h2 class="h-title">New Arrivals</h2>
+    <p class="fs-5 text-black-50 fw-lighter">
+        Check out most promising product bought by our buyers
+      </p>
+      <!-- <div class="filter">
+        <ul class="list-unstyled d-flex gap-5">
+          <li>All</li>
+          <li>Men</li>
+          <li>Women</li>
+          <li>Kids</li>
+        </ul>
+      </div> -->
+      <div class="filters d-flex gap-4 py-5 flex-wrap">
+        <button class="filter-btn active" data-filter="all">All</button>
+        <button class="filter-btn" data-filter="mens">Men</button>
+        <button class="filter-btn" data-filter="women">Women</button>
+        <button class="filter-btn" data-filter="kids">Kids</button>
+      </div>
+    </div>
+    <div class="slider-wrapper container overflow-hidden position-relative">
+      <div class="swiper-container ">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide" data-category="kids" data-sale="yes">
+            <div class="img-box position-relative">
+              <div><img src="./images/girl-dress.png" alt="" /></div>
+              <div
+                class="badge position-absolute d-flex justify-content-center align-items-center"
+              >
+                <span class="text-white">40%</span>
+              </div>
+              <div class="p-options position-absolute d-flex flex-column">
+                <div class="p-icons p-heart">
+                  <img src="./images/p-Heart.svg" alt="" />
+                </div>
+                <div class="p-icons p-heart">
+                  <img src="./images/p-Bag.svg" alt="" />
+                </div>
+                <div class="p-icons p-heart">
+                  <img src="./images/p-Image.svg" alt="" />
+                </div>
+              </div>
+            </div>
+            <div class="details-sec d-flex flex-column gap-2">
+              <div
+                class="cate-rating d-flex justify-content-between align-items-center"
+              >
+                <span class="fs-6">Kids</span>
+                <div class="rating">
+                  <i class="bi bi-star-fill fs-6 text-warning"></i>
+                  <i class="bi bi-star-fill fs-6 text-warning"></i>
+                  <i class="bi bi-star-fill fs-6 text-warning"></i>
+                  <i class="bi bi-star-fill fs-6 text-warning"></i>
+                  <i class="bi bi-star fs-6 text-dark"></i>
+                </div>
+              </div>
+              <h6 class="fs-4">Yellow T-Shirt</h6>
+              <div class="price">
+                <p class="text-success">
+                  $180
+                  <span class="text-decoration-line-through fs-6 text-black-50"
+                    >$300</span
+                  >
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide" data-category="kids" data-sale="yes">
+            <div class="img-box position-relative">
+              <div><img src="./images/girl-in-white.png" alt="" /></div>
+              <div
+                class="badge position-absolute d-flex justify-content-center align-items-center"
+              >
+                <span class="text-white">40%</span>
+              </div>
+              <div class="p-options position-absolute d-flex flex-column">
+                <div class="p-icons p-heart">
+                  <img src="./images/p-Heart.svg" alt="" />
+                </div>
+                <div class="p-icons p-heart">
+                  <img src="./images/p-Bag.svg" alt="" />
+                </div>
+                <div class="p-icons p-heart">
+                  <img src="./images/p-Image.svg" alt="" />
+                </div>
+              </div>
+            </div>
+            <div class="details-sec d-flex flex-column gap-2">
+              <div
+                class="cate-rating d-flex justify-content-between align-items-center"
+              >
+                <span class="fs-6">Kids</span>
+                <div class="rating">
+                  <i class="bi bi-star-fill fs-6 text-warning"></i>
+                  <i class="bi bi-star-fill fs-6 text-warning"></i>
+                  <i class="bi bi-star-fill fs-6 text-warning"></i>
+                  <i class="bi bi-star-fill fs-6 text-warning"></i>
+                  <i class="bi bi-star fs-6 text-dark"></i>
+                </div>
+              </div>
+              <h6 class="fs-4">Yellow T-Shirt</h6>
+              <div class="price">
+                <p class="text-success">
+                  $180
+                  <span class="text-decoration-line-through fs-6 text-black-50"
+                    >$300</span
+                  >
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide" data-category="kids" data-sale="yes">
+            <div class="img-box position-relative">
+              <div><img src="./images/child-sitting.png" alt="" /></div>
+              <div
+                class="badge position-absolute d-flex justify-content-center align-items-center"
+              >
+                <span class="text-white">40%</span>
+              </div>
+              <div class="p-options position-absolute d-flex flex-column">
+                <div class="p-icons p-heart">
+                  <img src="./images/p-Heart.svg" alt="" />
+                </div>
+                <div class="p-icons p-heart">
+                  <img src="./images/p-Bag.svg" alt="" />
+                </div>
+                <div class="p-icons p-heart">
+                  <img src="./images/p-Image.svg" alt="" />
+                </div>
+              </div>
+            </div>
+            <div class="details-sec d-flex flex-column gap-2">
+              <div
+                class="cate-rating d-flex justify-content-between align-items-center"
+              >
+                <span class="fs-6">Kids</span>
+                <div class="rating">
+                  <i class="bi bi-star-fill fs-6 text-warning"></i>
+                  <i class="bi bi-star-fill fs-6 text-warning"></i>
+                  <i class="bi bi-star-fill fs-6 text-warning"></i>
+                  <i class="bi bi-star-fill fs-6 text-warning"></i>
+                  <i class="bi bi-star fs-6 text-dark"></i>
+                </div>
+              </div>
+              <h6 class="fs-4">Yellow T-Shirt</h6>
+              <div class="price">
+                <p class="text-success">
+                  $180
+                  <span class="text-decoration-line-through fs-6 text-black-50"
+                    >$300</span
+                  >
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide" data-category="mens" data-sale="yes">
+            <div class="img-box position-relative">
+              <div><img src="./images/boy-in-red.png" alt="" /></div>
+              <div
+                class="badge position-absolute d-flex justify-content-center align-items-center"
+              >
+                <span class="text-white">40%</span>
+              </div>
+              <div class="p-options position-absolute d-flex flex-column">
+                <div class="p-icons p-heart">
+                  <img src="./images/p-Heart.svg" alt="" />
+                </div>
+                <div class="p-icons p-heart">
+                  <img src="./images/p-Bag.svg" alt="" />
+                </div>
+                <div class="p-icons p-heart">
+                  <img src="./images/p-Image.svg" alt="" />
+                </div>
+              </div>
+            </div>
+            <div class="details-sec d-flex flex-column gap-2">
+              <div
+                class="cate-rating d-flex justify-content-between align-items-center"
+              >
+                <span class="fs-6">Kids</span>
+                <div class="rating">
+                  <i class="bi bi-star-fill fs-6 text-warning"></i>
+                  <i class="bi bi-star-fill fs-6 text-warning"></i>
+                  <i class="bi bi-star-fill fs-6 text-warning"></i>
+                  <i class="bi bi-star-fill fs-6 text-warning"></i>
+                  <i class="bi bi-star fs-6 text-dark"></i>
+                </div>
+              </div>
+              <h6 class="fs-4">Yellow T-Shirt</h6>
+              <div class="price">
+                <p class="text-success">
+                  $180
+                  <span class="text-decoration-line-through fs-6 text-black-50"
+                    >$300</span
+                  >
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide" data-category="mens" data-sale="yes">
+            <div class="img-box position-relative">
+              <div><img src="./images/men.png" alt="" /></div>
+              <div
+                class="badge position-absolute d-flex justify-content-center align-items-center"
+              >
+                <span class="text-white">40%</span>
+              </div>
+              <div class="p-options position-absolute d-flex flex-column">
+                <div class="p-icons p-heart">
+                  <img src="./images/p-Heart.svg" alt="" />
+                </div>
+                <div class="p-icons p-heart">
+                  <img src="./images/p-Bag.svg" alt="" />
+                </div>
+                <div class="p-icons p-heart">
+                  <img src="./images/p-Image.svg" alt="" />
+                </div>
+              </div>
+            </div>
+            <div class="details-sec d-flex flex-column gap-2">
+              <div
+                class="cate-rating d-flex justify-content-between align-items-center"
+              >
+                <span class="fs-6">Kids</span>
+                <div class="rating">
+                  <i class="bi bi-star-fill fs-6 text-warning"></i>
+                  <i class="bi bi-star-fill fs-6 text-warning"></i>
+                  <i class="bi bi-star-fill fs-6 text-warning"></i>
+                  <i class="bi bi-star-fill fs-6 text-warning"></i>
+                  <i class="bi bi-star fs-6 text-dark"></i>
+                </div>
+              </div>
+              <h6 class="fs-4">Yellow T-Shirt</h6>
+              <div class="price">
+                <p class="text-success">
+                  $180
+                  <span class="text-decoration-line-through fs-6 text-black-50"
+                    >$300</span
+                  >
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Add more slides as needed -->
+        </div>
+
+        <!-- Add Pagination -->
+
+        <div class="navi position-absolute opacity-50">
+          <div class="swiper-button-next">
+            <img src="./images/next.svg" alt="" />
+          </div>
+          <div class="swiper-button-prev">
+            <img src="./images/prev.svg" alt="" />
+          </div>
+        </div>
+
+        <!-- Add Navigation -->
+      </div>
+    </div>
+    <!-- slider 01 section -->
+    <!-- slider 02 section -->
+    <div
+      class="container d-flex flex-column align-items-center justify-content-center gap-2"
+    >
+      <h2 class="h-title">Trending Collections</h2>
+      <p class="fs-5 text-black-50 fw-lighter">
+        Check out most promising product bought by our buyers
+      </p>
+    </div>
+      <!-- slider 02 -->
+      <div class="slider-wrapper container overflow-hidden position-relative">
+        <div class="swiper-container">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide" data-category="kids" data-sale="yes">
+              <div class="img-box position-relative">
+                <div><img src="./images/girl-dress.png" alt="" /></div>
+                <div
+                  class="badge position-absolute d-flex justify-content-center align-items-center"
+                >
+                  <span class="text-white">40%</span>
+                </div>
+                <div class="p-options position-absolute d-flex flex-column">
+                  <div class="p-icons p-heart">
+                    <img src="./images/p-Heart.svg" alt="" />
+                  </div>
+                  <div class="p-icons p-heart">
+                    <img src="./images/p-Bag.svg" alt="" />
+                  </div>
+                  <div class="p-icons p-heart">
+                    <img src="./images/p-Image.svg" alt="" />
+                  </div>
+                </div>
+              </div>
+              <div class="details-sec d-flex flex-column gap-2">
+                <div
+                  class="cate-rating d-flex justify-content-between align-items-center"
+                >
+                  <span class="fs-6">Kids</span>
+                  <div class="rating">
+                    <i class="bi bi-star-fill fs-6 text-warning"></i>
+                    <i class="bi bi-star-fill fs-6 text-warning"></i>
+                    <i class="bi bi-star-fill fs-6 text-warning"></i>
+                    <i class="bi bi-star-fill fs-6 text-warning"></i>
+                    <i class="bi bi-star fs-6 text-dark"></i>
+                  </div>
+                </div>
+                <h6 class="fs-4">Yellow T-Shirt</h6>
+                <div class="price">
+                  <p class="text-success">
+                    $180
+                    <span
+                      class="text-decoration-line-through fs-6 text-black-50"
+                      >$300</span
+                    >
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide" data-category="kids" data-sale="yes">
+              <div class="img-box position-relative">
+                <div><img src="./images/girl-in-white.png" alt="" /></div>
+                <div
+                  class="badge position-absolute d-flex justify-content-center align-items-center"
+                >
+                  <span class="text-white">40%</span>
+                </div>
+                <div class="p-options position-absolute d-flex flex-column">
+                  <div class="p-icons p-heart">
+                    <img src="./images/p-Heart.svg" alt="" />
+                  </div>
+                  <div class="p-icons p-heart">
+                    <img src="./images/p-Bag.svg" alt="" />
+                  </div>
+                  <div class="p-icons p-heart">
+                    <img src="./images/p-Image.svg" alt="" />
+                  </div>
+                </div>
+              </div>
+              <div class="details-sec d-flex flex-column gap-2">
+                <div
+                  class="cate-rating d-flex justify-content-between align-items-center"
+                >
+                  <span class="fs-6">Kids</span>
+                  <div class="rating">
+                    <i class="bi bi-star-fill fs-6 text-warning"></i>
+                    <i class="bi bi-star-fill fs-6 text-warning"></i>
+                    <i class="bi bi-star-fill fs-6 text-warning"></i>
+                    <i class="bi bi-star-fill fs-6 text-warning"></i>
+                    <i class="bi bi-star fs-6 text-dark"></i>
+                  </div>
+                </div>
+                <h6 class="fs-4">Yellow T-Shirt</h6>
+                <div class="price">
+                  <p class="text-success">
+                    $180
+                    <span
+                      class="text-decoration-line-through fs-6 text-black-50"
+                      >$300</span
+                    >
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide" data-category="kids" data-sale="yes">
+              <div class="img-box position-relative">
+                <div><img src="./images/child-sitting.png" alt="" /></div>
+                <div
+                  class="badge position-absolute d-flex justify-content-center align-items-center"
+                >
+                  <span class="text-white">40%</span>
+                </div>
+                <div class="p-options position-absolute d-flex flex-column">
+                  <div class="p-icons p-heart">
+                    <img src="./images/p-Heart.svg" alt="" />
+                  </div>
+                  <div class="p-icons p-heart">
+                    <img src="./images/p-Bag.svg" alt="" />
+                  </div>
+                  <div class="p-icons p-heart">
+                    <img src="./images/p-Image.svg" alt="" />
+                  </div>
+                </div>
+              </div>
+              <div class="details-sec d-flex flex-column gap-2">
+                <div
+                  class="cate-rating d-flex justify-content-between align-items-center"
+                >
+                  <span class="fs-6">Kids</span>
+                  <div class="rating">
+                    <i class="bi bi-star-fill fs-6 text-warning"></i>
+                    <i class="bi bi-star-fill fs-6 text-warning"></i>
+                    <i class="bi bi-star-fill fs-6 text-warning"></i>
+                    <i class="bi bi-star-fill fs-6 text-warning"></i>
+                    <i class="bi bi-star fs-6 text-dark"></i>
+                  </div>
+                </div>
+                <h6 class="fs-4">Yellow T-Shirt</h6>
+                <div class="price">
+                  <p class="text-success">
+                    $180
+                    <span
+                      class="text-decoration-line-through fs-6 text-black-50"
+                      >$300</span
+                    >
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide" data-category="mens" data-sale="yes">
+              <div class="img-box position-relative">
+                <div><img src="./images/boy-in-red.png" alt="" /></div>
+                <div
+                  class="badge position-absolute d-flex justify-content-center align-items-center"
+                >
+                  <span class="text-white">40%</span>
+                </div>
+                <div class="p-options position-absolute d-flex flex-column">
+                  <div class="p-icons p-heart">
+                    <img src="./images/p-Heart.svg" alt="" />
+                  </div>
+                  <div class="p-icons p-heart">
+                    <img src="./images/p-Bag.svg" alt="" />
+                  </div>
+                  <div class="p-icons p-heart">
+                    <img src="./images/p-Image.svg" alt="" />
+                  </div>
+                </div>
+              </div>
+              <div class="details-sec d-flex flex-column gap-2">
+                <div
+                  class="cate-rating d-flex justify-content-between align-items-center"
+                >
+                  <span class="fs-6">Kids</span>
+                  <div class="rating">
+                    <i class="bi bi-star-fill fs-6 text-warning"></i>
+                    <i class="bi bi-star-fill fs-6 text-warning"></i>
+                    <i class="bi bi-star-fill fs-6 text-warning"></i>
+                    <i class="bi bi-star-fill fs-6 text-warning"></i>
+                    <i class="bi bi-star fs-6 text-dark"></i>
+                  </div>
+                </div>
+                <h6 class="fs-4">Yellow T-Shirt</h6>
+                <div class="price">
+                  <p class="text-success">
+                    $180
+                    <span
+                      class="text-decoration-line-through fs-6 text-black-50"
+                      >$300</span
+                    >
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide" data-category="mens" data-sale="yes">
+              <div class="img-box position-relative">
+                <div><img src="./images/men.png" alt="" /></div>
+                <div
+                  class="badge position-absolute d-flex justify-content-center align-items-center"
+                >
+                  <span class="text-white">40%</span>
+                </div>
+                <div class="p-options position-absolute d-flex flex-column">
+                  <div class="p-icons p-heart">
+                    <img src="./images/p-Heart.svg" alt="" />
+                  </div>
+                  <div class="p-icons p-heart">
+                    <img src="./images/p-Bag.svg" alt="" />
+                  </div>
+                  <div class="p-icons p-heart">
+                    <img src="./images/p-Image.svg" alt="" />
+                  </div>
+                </div>
+              </div>
+              <div class="details-sec d-flex flex-column gap-2">
+                <div
+                  class="cate-rating d-flex justify-content-between align-items-center"
+                >
+                  <span class="fs-6">Kids</span>
+                  <div class="rating">
+                    <i class="bi bi-star-fill fs-6 text-warning"></i>
+                    <i class="bi bi-star-fill fs-6 text-warning"></i>
+                    <i class="bi bi-star-fill fs-6 text-warning"></i>
+                    <i class="bi bi-star-fill fs-6 text-warning"></i>
+                    <i class="bi bi-star fs-6 text-dark"></i>
+                  </div>
+                </div>
+                <h6 class="fs-4">Yellow T-Shirt</h6>
+                <div class="price">
+                  <p class="text-success">
+                    $180
+                    <span
+                      class="text-decoration-line-through fs-6 text-black-50"
+                      >$300</span
+                    >
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <!-- Add more slides as needed -->
+          </div>
+
+          <!-- Add Pagination -->
+
+          <div class="navi position-absolute opacity-50">
+            <div class="swiper-button-next">
+              <img src="./images/next.svg" alt="" />
+            </div>
+            <div class="swiper-button-prev">
+              <img src="./images/prev.svg" alt="" />
+            </div>
+          </div>
+
+          <!-- Add Navigation -->
+        </div>
+      </div>
+    
+    <!-- slider 02 section -->
+    <!-- reviews section -->
+    <div
+    class="container d-flex flex-column align-items-center justify-content-center gap-2"
+  >
+    <h2 class="h-title">Reviews</h2>
+    <p class="fs-5 text-black-50 fw-lighter">
+        This is what our customers have to say 
+    </p>
+  </div>
+  
+  <div class="review-slider-wrapper d-flex justify-content-center align-items-center">
+    <div class="review-slider-wrapper-sub d-flex bg-white flex-md-row flex-column">
+    <div class="img-box-review d-flex align-items-center justify-content-center">
+        <img src="./images/sample.png" alt="">
+    </div>
+    
+        <div class="swiper mySwiper position-relative">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <p class="fw-light fs-6">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum</p>
+                    <h6 class="fw-bold">Sameer Jain</h6>
+                </div>
+                <div class="swiper-slide">
+                    <p class="fw-light fs-6">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum</p>
+                    <h6 class="fw-bold">Sameer Jain</h6>
+                </div>
+                <div class="swiper-slide">
+                    <p class="fw-light fs-6">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum</p>
+                    <h6 class="fw-bold">Sameer Jain</h6>
+                </div>
+                <div class="swiper-slide">
+                    <p class="fw-light fs-6">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum</p>
+                    <h6 class="fw-bold">Sameer Jain</h6>
+                </div>
+                <div class="swiper-slide">
+                    <p class="fw-light fs-6">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum</p>
+                    <h6 class="fw-bold">Sameer Jain</h6>
+                </div>
+            </div>
+            <div class="position-absolute rev-nav d-flex gap-3 opacity-50 z-3 justify-content-end justify-content-start">
+                <div class="swiper-button-prev-third"><img src="./images/prev.svg" alt="" class="img-fluid"/></div>
+                <div class="swiper-button-next-third"><img src="./images/next.svg" alt="" class="img-fluid"/></div>
+            </div>
+        </div>
+  </div></div>
+    <!-- reviews section -->
+    <!-- newsletter section -->
+     <div class="newsletter-wrapper d-flex flex-column justify-content-center align-items-center ">
+        <img src="./images/message.png" alt="" class="img-fluid pb-5">
+        <div
+    class="container subs-news d-flex flex-column align-items-center justify-content-center gap-2"
+  >
+    <h2 class="news-title">Subscibe Newsletter</h2>
+    <p class="fs-5 text-black-50 fw-lighter">
+        Subscribe to our email and get updates right in your inbox
+    </p>
+  </div>
+  <div class="news-input-wrapper position-relative">
+    <input type="text" name="" id="" class="form-control" placeholder="Enter Your Email">
+    <button class=" border-0 position-absolute"><img src="./images/Send.svg" alt="" ></button>
+  </div>
+  <div class="social-box d-flex gap-4">
+    <img src="./images/roundfb.svg" alt="">
+    <img src="./images/insta.svg" alt="">
+    <img src="./images/twitter.svg" alt="">
+  </div>
+     </div>
+    </div>
+</div>
+
+    <!-- newsletter section -->
+    <!-- footer section -->
+     <div class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3">
+                    <div class="f-logo-box d-flex flex-column gap-4 justify-content-center align-items-baseline">
+                        <img src="./images/logo.svg" alt="" class="img-fluid">
+                        <p class="fw-light w-75">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some,</p>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="f-box-1">
+                        <ul class="list-unstyled d-flex flex-column gap-3">
+                            <li><h6 class="fs-5 fw-bold">Help</h6></li>
+                            <li class="fw-light">Privacy Policy</li>
+                            <li class="fw-light">Shipping & Delivery</li>
+                            <li class="fw-light">Refund Policy</li>
+                            <li class="fw-light">Track Your Order</li>
+                            
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-3"> <div class="f-box-1">
+                        <ul class="list-unstyled d-flex flex-column gap-3">
+                            <li><h6 class="fs-5 fw-bold">Store</h6></li>
+                            <li class="fw-light">Boy Fashion</li>
+                            <li class="fw-light">Girl Fashion</li>
+                            <li class="fw-light">Kids Fashion</li>
+                            <li class="fw-light">Other</li>
+                            
+                        </ul>
+                    </div></div>
+                <div class="col-md-3"> <div class="f-box-1">
+                        <ul class="list-unstyled d-flex flex-column gap-3">
+                            <li><h6 class="fs-5 fw-bold">Support</h6></li>
+                            <li class="fw-light">Feedback</li>
+                            <li class="fw-light">Contact us</li>
+                            <li class="fw-light">Terms & condition</li>
+                        </ul>
+                    </div></div>
+            </div>
+        </div>
+     </div>
+
+    <!-- footer section -->
+
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="./script.js"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
